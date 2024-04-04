@@ -1,0 +1,475 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      112.5deg,
+      rgba(232, 232, 232, 0.03) 0%,
+      rgba(232, 232, 232, 0.03) 2%,
+      rgba(231, 231, 231, 0.03) 2%,
+      rgba(231, 231, 231, 0.03) 4%,
+      rgba(231, 231, 231, 0.03) 4%,
+      rgba(231, 231, 231, 0.03) 11%,
+      rgba(2, 2, 2, 0.03) 11%,
+      rgba(2, 2, 2, 0.03) 67%,
+      rgba(231, 231, 231, 0.03) 67%,
+      rgba(231, 231, 231, 0.03) 90%,
+      rgba(111, 111, 111, 0.03) 90%,
+      rgba(111, 111, 111, 0.03) 100%
+    ),
+    linear-gradient(
+      157.5deg,
+      rgba(210, 210, 210, 0.03) 0%,
+      rgba(210, 210, 210, 0.03) 17%,
+      rgba(254, 254, 254, 0.03) 17%,
+      rgba(254, 254, 254, 0.03) 18%,
+      rgba(96, 96, 96, 0.03) 18%,
+      rgba(96, 96, 96, 0.03) 44%,
+      rgba(159, 159, 159, 0.03) 44%,
+      rgba(159, 159, 159, 0.03) 70%,
+      rgba(24, 24, 24, 0.03) 70%,
+      rgba(24, 24, 24, 0.03) 82%,
+      rgba(16, 16, 16, 0.03) 82%,
+      rgba(16, 16, 16, 0.03) 100%
+    ),
+    linear-gradient(
+      22.5deg,
+      rgba(47, 47, 47, 0.03) 0%,
+      rgba(47, 47, 47, 0.03) 32%,
+      rgba(124, 124, 124, 0.03) 32%,
+      rgba(124, 124, 124, 0.03) 40%,
+      rgba(200, 200, 200, 0.03) 40%,
+      rgba(200, 200, 200, 0.03) 42%,
+      rgba(16, 16, 16, 0.03) 42%,
+      rgba(16, 16, 16, 0.03) 64%,
+      rgba(243, 243, 243, 0.03) 64%,
+      rgba(243, 243, 243, 0.03) 94%,
+      rgba(93, 93, 93, 0.03) 94%,
+      rgba(93, 93, 93, 0.03) 100%
+    ),
+    linear-gradient(90deg, #ffffff, #ffffff);
+}
+
+/*Scroll bar Style*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #328e00);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #1e5600);
+}
+
+/*Navbar Style*/
+
+.navbar {
+  background-image: repeating-linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.03) 0px,
+      rgba(0, 0, 0, 0.03) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(45deg, rgb(18, 105, 233), rgb(166, 255, 155));
+}
+
+.nav-icons i {
+  font-size: 2rem;
+}
+
+.nav-icons {
+  margin-left: 10px;
+}
+
+.nav-icons button {
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.bi-person-circle {
+  font-size: 2rem;
+  color: black;
+}
+
+/*Carousel Style*/
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.btn-link:hover {
+  text-decoration: wavy !important;
+  color: #2801b5 !important;
+}
+
+/*Index Card Style*/
+
+#indexcard {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease,
+    background-color 0.3s ease;
+}
+
+#indexcard:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 4px 8px 0px,
+    rgba(14, 30, 37, 0.32) 0px 4px 32px 0px;
+  transform: scale(1.05);
+  background-color: #08d230;
+}
+
+/*Login Card Style*/
+
+#logincard {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease,
+    background-color 0.3s ease; /* Add transitions for box-shadow, transform, and background-color */
+}
+
+#logincard:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 4px 8px 0px,
+    rgba(14, 30, 37, 0.32) 0px 4px 32px 0px;
+  transform: scale(1.05);
+  background-image: radial-gradient(
+      circle at 46% 40%,
+      rgba(228, 228, 228, 0.06) 0%,
+      rgba(228, 228, 228, 0.06) 13%,
+      transparent 13%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 11% 41%,
+      rgba(198, 198, 198, 0.06) 0%,
+      rgba(198, 198, 198, 0.06) 19%,
+      transparent 19%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 52% 23%,
+      rgba(14, 14, 14, 0.06) 0%,
+      rgba(14, 14, 14, 0.06) 69%,
+      transparent 69%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 13% 85%,
+      rgba(148, 148, 148, 0.06) 0%,
+      rgba(148, 148, 148, 0.06) 44%,
+      transparent 44%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 57% 74%,
+      rgba(232, 232, 232, 0.06) 0%,
+      rgba(232, 232, 232, 0.06) 21%,
+      transparent 21%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 59% 54%,
+      rgba(39, 39, 39, 0.06) 0%,
+      rgba(39, 39, 39, 0.06) 49%,
+      transparent 49%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 98% 38%,
+      rgba(157, 157, 157, 0.06) 0%,
+      rgba(157, 157, 157, 0.06) 24%,
+      transparent 24%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 8% 6%,
+      rgba(60, 60, 60, 0.06) 0%,
+      rgba(60, 60, 60, 0.06) 12%,
+      transparent 12%,
+      transparent 100%
+    ),
+    linear-gradient(90deg, rgb(148, 220, 10), rgb(18, 123, 10));
+}
+
+/*Register Card Style*/
+
+#registercardcard {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease,
+    background-color 0.3s ease; /* Add transitions for box-shadow, transform, and background-color */
+}
+
+#registercard:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 4px 8px 0px,
+    rgba(14, 30, 37, 0.32) 0px 4px 32px 0px;
+  transform: scale(1.05);
+  background-image: repeating-linear-gradient(
+      0deg,
+      hsla(342, 35%, 96%, 0.05) 0px,
+      hsla(342, 35%, 96%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(342, 35%, 96%, 0.05) 11px,
+      hsla(342, 35%, 96%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      hsla(342, 35%, 96%, 0.05) 0px,
+      hsla(342, 35%, 96%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(342, 35%, 96%, 0.05) 11px,
+      hsla(342, 35%, 96%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      hsla(342, 35%, 96%, 0.05) 0px,
+      hsla(342, 35%, 96%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(342, 35%, 96%, 0.05) 11px,
+      hsla(342, 35%, 96%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      hsla(342, 35%, 96%, 0.05) 0px,
+      hsla(342, 35%, 96%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(342, 35%, 96%, 0.05) 11px,
+      hsla(342, 35%, 96%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    linear-gradient(90deg, rgb(57, 46, 1), rgb(80, 228, 41));
+}
+
+/*Register Page Styles*/
+
+.card-img-left {
+  width: 45%;
+  /* Link to your background image using in the property below! */
+  background: scroll center
+    url("https://images.unsplash.com/photo-1516970739312-08b075784b71?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.btn-google {
+  color: white !important;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white !important;
+  background-color: #3b5998;
+}
+
+/*Login Page Style*/
+
+.link-space {
+  margin-right: 14em;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.btn-google {
+  color: white !important;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white !important;
+  background-color: #3b5998;
+}
+
+/*Contact us Style*/
+
+/*Footer Style*/
+
+.footer {
+  text-decoration: solid !important;
+  background-image: repeating-linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.03) 0px,
+    rgba(0, 0, 0, 0.03) 2px,
+    transparent 2px,
+    transparent 4px
+  ),
+  linear-gradient(45deg, rgb(18, 105, 233), rgb(166, 255, 155));
+
+  background-blend-mode: overlay, overlay, overlay, normal;
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/*Forgot Password Style*/
+
+#forgotpassword {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease,
+    background-color 0.3s ease; /* Add transitions for box-shadow, transform, and background-color */
+}
+
+#forgotpassword:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 4px 8px 0px,
+    rgba(14, 30, 37, 0.32) 0px 4px 32px 0px;
+  transform: scale(1.05);
+  background-image: linear-gradient(
+      45deg,
+      rgba(41, 46, 85, 0.2) 0%,
+      rgba(41, 46, 85, 0.2) 14.286%,
+      rgba(8, 63, 48, 0.2) 14.286%,
+      rgba(8, 63, 48, 0.2) 28.572%,
+      rgba(91, 21, 141, 0.2) 28.572%,
+      rgba(91, 21, 141, 0.2) 42.858%,
+      rgba(58, 38, 104, 0.2) 42.858%,
+      rgba(58, 38, 104, 0.2) 57.144%,
+      rgba(25, 55, 67, 0.2) 57.144%,
+      rgba(25, 55, 67, 0.2) 71.43%,
+      rgba(108, 13, 159, 0.2) 71.43%,
+      rgba(108, 13, 159, 0.2) 85.716%,
+      rgba(75, 30, 122, 0.2) 85.716%,
+      rgba(75, 30, 122, 0.2) 100.002%
+    ),
+    linear-gradient(
+      135deg,
+      rgba(41, 46, 85, 0.2) 0%,
+      rgba(41, 46, 85, 0.2) 14.286%,
+      rgba(8, 63, 48, 0.2) 14.286%,
+      rgba(8, 63, 48, 0.2) 28.572%,
+      rgba(91, 21, 141, 0.2) 28.572%,
+      rgba(91, 21, 141, 0.2) 42.858%,
+      rgba(58, 38, 104, 0.2) 42.858%,
+      rgba(58, 38, 104, 0.2) 57.144%,
+      rgba(25, 55, 67, 0.2) 57.144%,
+      rgba(25, 55, 67, 0.2) 71.43%,
+      rgba(108, 13, 159, 0.2) 71.43%,
+      rgba(108, 13, 159, 0.2) 85.716%,
+      rgba(75, 30, 122, 0.2) 85.716%,
+      rgba(75, 30, 122, 0.2) 100.002%
+    ),
+    linear-gradient(
+      0deg,
+      rgba(41, 46, 85, 0.2) 0%,
+      rgba(41, 46, 85, 0.2) 14.286%,
+      rgba(8, 63, 48, 0.2) 14.286%,
+      rgba(8, 63, 48, 0.2) 28.572%,
+      rgba(91, 21, 141, 0.2) 28.572%,
+      rgba(91, 21, 141, 0.2) 42.858%,
+      rgba(58, 38, 104, 0.2) 42.858%,
+      rgba(58, 38, 104, 0.2) 57.144%,
+      rgba(25, 55, 67, 0.2) 57.144%,
+      rgba(25, 55, 67, 0.2) 71.43%,
+      rgba(108, 13, 159, 0.2) 71.43%,
+      rgba(108, 13, 159, 0.2) 85.716%,
+      rgba(75, 30, 122, 0.2) 85.716%,
+      rgba(75, 30, 122, 0.2) 100.002%
+    ),
+    linear-gradient(90deg, rgb(3, 20, 35), rgb(76, 9, 223));
+  color: white;
+}
+
+/*Categories*/
+
+#indexcard a:hover h5 {
+  color: blue;
+  text-decoration: underline;
+}
+
+#indexcard a h5 {
+  color: black;
+  text-decoration: none;
+}
+
+#indexcard a {
+  color: black;
+  text-decoration: none;
+}
+
+#ft {
+  font-size: 1.5em;
+  color: black;
+  margin-right: 45%;
+}
+
+#b1:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+#cd {
+  height: max-content;
+  width: max-content;
+  border: 2px solid black;
+  margin-left: 7%;
+}
+
+#cd:hover {
+  background-color: rgb(202, 212, 212);
+}
+
+#tt {
+  font-size: 1.5em;
+}
+
+#hd {
+  margin-left: 7%;
+}
+
+.review {
+  border: 1px solid black;
+  border-radius: 5%;
+  height: fit-content;
+  width: fit-content;
+}
+
+#contactus {
+  background-image: repeating-linear-gradient(
+      135deg,
+      rgba(68, 68, 68, 0.07) 0px,
+      rgba(68, 68, 68, 0.07) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgba(68, 68, 68, 0.07) 0px,
+      rgba(68, 68, 68, 0.07) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(135deg, rgb(251, 168, 16), rgb(251, 222, 55));
+}
